@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/styles/choices.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="cross_wrapper">
+            <img class="cross" src="images/cross-svgrepo-com.svg" alt="">
+        </div>
+        <div class="uncross_wrapper">
+            <div class="wrapper_block_1">
+                <h1 class="head">Make an order</h1>
+                <div class="box_1">
+                    <h2 class="head_box">Name*</h2>
+                    <input class="name" type="text">
+                </div>
+                <div class="box_1">
+                    <h2 class="head_box">Tel. WhatsApp/Telegram*</h2>
+                    <input class="number" type="text">
+                </div>
+                <div class="box_1">
+                    <h2 class="head_box">Email*</h2>
+                    <input class="email" type="text">
+                </div>
+                <div class="box_1">
+                    <h2 class="head_box">Your country*</h2>
+                    <select class="js-choice" id="cars">
+                        <option class="opt" >UK</option>
+                        <option class="opt" >France</option>
+                        <option class="opt" >Italy</option>
+                        <option class="opt" >Belgium</option>
+                        <option class="opt" >The Netherlands</option>
+                        <option class="opt" >USA</option>
+                        <option class="opt" >Canada</option>
+                        <option class="opt" >Qatar</option>
+                        <option class="opt" >UAE</option>
+                        <option class="opt" >Cyprus</option>
+                        <option class="opt" >Ghana</option>
+                        <option class="opt" >Germany</option>
+                        <option class="opt" >Romania</option>
+                        <option class="opt" >Portugal</option>
+                        <option class="opt" >Czech Republic</option>
+                        <option class="opt" >Saudi Arabia</option>
+                        <option class="opt" >Mexico</option>
+                        <option class="opt" >Lithuania</option>
+                        <option class="opt" >Spain</option>
+                        <option class="opt" >Latvia</option>
+                        <option class="opt" >Estonia</option>
+                    </select>
+                </div>
+                <button class="btn">Tap here for the total quote with shipping</button>
+            </div>
+            <div class="wrapper_block_2">
+                <h1 class="head">Your bag</h1>
+                <div class="card">
+                    <div class="counter">
+                        <button class="counter-minus"><div class="min"></div></button>
+                        <div class="counter-display"></div>
+                        <button class="counter-plus">+</button>
+                    </div>
+                    <input class="price" type="text" placeholder="Price">
+                    <div class="check">
+                        <p class="check_txt">The presence of a logo</p>
+                        <input class="chbox" type="checkbox">
+                    </div>
+                </div>
+                <div class="box-total">
+                    <p class="total_txt">Итого</p>
+                    <div class="total" type="text"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/scripts/choices.min.js"></script>
+    <script src="app.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
